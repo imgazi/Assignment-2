@@ -387,7 +387,7 @@ main {
     line-height: 26px;
     /* 162.5% */
     width: 643px;
-  
+
 }
 
 . {}
@@ -521,7 +521,8 @@ footer {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    padding: 100px;
+
+    margin: 100px 300px;
 }
 
 
@@ -533,6 +534,7 @@ footer {
 
     main {
         padding: 5px 5px;
+        max-width: auto;
     }
 
     nav {
@@ -677,5 +679,86 @@ footer {
         width: 335px;
         height: 176px;
         flex-shrink: 0;
+    }
+
+    .choose-title {
+        font-size: 20px;
+    }
+
+    .choose-para {
+        font-size: 10x;
+    }
+
+    .us-container {
+        flex-direction: column;
+    }
+
+    .hotels {
+        width: 300px;
+        height: 330px;
+        flex-shrink: 0;
+    }
+    .service {
+        width: 300px;
+        height: 330px;
+        flex-shrink: 0;
+    }
+    #best-price{
+        margin-inline: 0px;
+    }
+    
+    .us-title {
+        font-size: 20px;
+    }
+    .us-para{
+        font-size: 14px;
+    }
+    .deals-title {
+        font-size: 20px;
+    }
+    .deals-para{
+        font-size: 14px;
+        width: 300px;
+    }
+    .newsletter-part{
+        flex-direction: column;
+    }
+    .news-input{
+        width: auto;
+    }
+    #Subscribe {
+        width: auto;
+    }
+    .travel-container{
+        width: auto;
+    }
+    img{
+        width:333px;
+        height: 333px;
+    }
+    .base-elements{
+        width: auto;
+    }
+    footer{
+        width: auto;
+    }
+    .baseline{
+        margin: 40px 150px; 
+        text-align: center;
+        
+    }
+    .logo1{
+        width: auto;
+        height: auto;
+    }
+    .line{
+        width: 150px;
+    }
+    .social{
+        padding-left: 180px;
+    }
+    .boom{
+        max-width: 300px;
+        padding-left: 150px;
     }
 }
